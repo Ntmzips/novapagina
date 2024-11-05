@@ -1,0 +1,111 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+h3 {
+    text-align: center;
+    color: #fff;
+
+}
+#container {
+   width: 80%;
+   height: 900px;
+   background-color: rgb(255, 255, 255);
+
+}
+
+.imagem {
+    width: 80%;
+}
+
+.corpo {
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background-color: #249c94;
+}
+
+.corpo a {
+    float: right;
+    margin-right: 5%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.formulario {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rodape {
+    display: none;
+    margin-top: 1%;
+    
+
+}
+
+#rodape img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 193px;
+    border-radius: 5%;
+}
+
+img {
+    width: 1300px;
+    height: 325px;
+    
+}
+
+input{
+    width: 350px;
+    height: 40px;
+}
+
+button {
+    margin-top: 1%;
+    width: 200px;
+}
+
+
+
+
+
+/** MEDIA QUERY **/
+
+
+
+@media screen and (max-width: 320px) {
+    #container {
+      height: 460px;
+    }
+    h4{
+      font-size: 24px;
+    }
+
+    
+    img {
+      width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    h3 {
+      text-align: center;
+    }
+
+    img {
+      width: 300px;
+      height: 230px;
+    }
+    input{
+        width: 50%;
+    }
+}
